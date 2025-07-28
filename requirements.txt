@@ -1,0 +1,15 @@
+quart>=0.18.0
+geopandas
+matplotlib
+numpy
+openpyxl
+pandas
+pillow
+scikit-learn
+sqlalchemy>=2
+# -- DB Drivers --
+asyncpg
+python-dotenv
+# -- Web Server --
+uvicorn
+hypercorn
