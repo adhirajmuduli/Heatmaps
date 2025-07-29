@@ -89,11 +89,16 @@ Highly suitable for **field researchers**, **environmental chemists**, **ecologi
 
    - Output can be extended into scientific pipelines, dashboards, or Jupyter-based tools.
 
-
-
-This project also includes spatiotemporal interpolation of generated heatmaps over time and space to generate an interpolated animated video which is designed to capture the activity between the two timestamps provided, and how exactly the temporal variations **might have** took place over time. NOTE-- this feature has not been tested scientifically, so is not recommended to be used to derive data for academic work/ research publications. However, we encourage it if someone could test it and let us know the results.  
+This project also includes spatiotemporal interpolation of generated heatmaps over time and space to generate an interpolated animated video which is designed to capture the activity between the two timestamps provided, and how exactly the temporal variations **might have** took place over time. NOTE-- this feature has not been tested scientifically, so is not recommended to be used to derive data for academic work/ research publications. However, I encourage it if someone could test it and let us know the results.  
 What you would have to do to test it: Suppose you take two measurements - one in Jan and another in March, you may also take some data for Feb, but plot the heatmap for Feb separately- in different excel input. Generate the video interpolation between jan and march w/o- feb, and in the middle of video, find if the heatmap shown is similar to that provided in the heatmap you generated for Feb.  
 Likely the results would differ -- because, environmental parameters are always interlinked and cannot be scoped down to isolating and studying each parameter separately.
+
+### Validity of the tool:  
+This tool has been developed and used on real time BOD ( Biological Oxygen Demand ) data from Asia's largest Brackish water Lagoon- Chilika Lagoon. You would find the export.geojson file to be co-ordinates data for this lagoon, as well as the provided testfile.xlsx is actual measured BOD across various stations at the lagoon, whose co-ordinates have been provided in the data sheet across the data.  
+
+### Special Thanks
+
+I would like to extend our gratitude towards CDA ( Chilika Development Authority ) and WRTC ( Wetlands Research and Training Centre ), Chilika, for providing the test data and facilities which have played a crucial role in the development of this software. I would also like to thank Dr. Pradipta Ranjan Muduli for his scientific input, support and guidance throughout the process. 
 
 ## FEATURES  
 
